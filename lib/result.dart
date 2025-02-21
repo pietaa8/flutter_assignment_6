@@ -130,13 +130,13 @@ class _ResultPageState extends State<ResultPage> {
 
   String getAdvice() {
     if (widget.bmi < 18.5) {
-      return "You are underweight. Increase your calorie intake with protein-rich food and strength training.";
+      return "You are underweight. Increase your calorie intake with protein-rich food and strength training. Eat nutrient-dense foods like nuts, avocados, and whole grains. Avoid skipping meals or relying solely on sugary snacks.";
     } else if (widget.bmi >= 18.5 && widget.bmi < 24.9) {
-      return "Great! Your BMI is normal. Maintain a balanced diet and regular exercise.";
+      return "Great! Your BMI is normal. Maintain a balanced diet and regular exercise. Eat a variety of fruits, vegetables, and lean proteins. Avoid excessive processed foods or high-sugar drinks.";
     } else if (widget.bmi >= 25 && widget.bmi < 29.9) {
-      return "You're overweight. Try engaging in physical activities like jogging, swimming, or gym workouts.";
+      return "You're overweight. Try engaging in physical activities like jogging, swimming, or gym workouts. Eat more fiber-rich foods like vegetables, legumes, and whole grains. Avoid high-fat fast foods and sugary desserts.";
     } else {
-      return "Your BMI is in the obese range. Consult a healthcare provider for personalized weight management guidance.";
+      return "Your BMI is in the obese range. Consult a healthcare provider for personalized weight management guidance. Eat portion-controlled meals with lean proteins, vegetables, and healthy fats. Avoid processed carbs and excessive alcohol.";
     }
   }
 

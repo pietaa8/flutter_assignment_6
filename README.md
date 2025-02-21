@@ -11,3 +11,5 @@ Here I added the screenshots of my app.
 ![screenshots](assets/screenshots/ss4.png)
 ![screenshots](assets/screenshots/ss5.png)
 ![screenshots](assets/screenshots/ss6.png)
+![screenshots](assets/screenshots/ss7.png)
+![screenshots](assets/screenshots/ss8.png)
